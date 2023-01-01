@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+header {
+    display: flex;
+    background-color: #010298;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo-nm {
+    width: 20rem;
+    height: 10rem;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#bem-vindo {
+    font-size: 20px;
+}
+
+.container-contact {
+    display: flex;
+    color: #FFF;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tel-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+
+#tel-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+#contact-whatsapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration-line: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#whatsapp-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.container-buttons {
+    display: flex;
+}
+
+.header-button {
+    width: 8rem;
+    height: 2.2rem;
+    padding-top: 0.4rem;
+    margin: 0.4rem;
+    color: #010298;
+    background-color: #FFF;
+    border-radius: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.container-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+}
+
+#area-client {
+    font-size: 16px;
+}
+
+.client-button {
+    display: flex;
+    width: 8rem;
+    height: 2.2rem;
+    padding: 0.5rem;
+    border: 2px #FFF solid;
+    border-radius: 25px;
+    color: #FFF;
+    font-weight: 500;
+    text-align: center;
+    text-decoration-line: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#client-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 0.5rem;
+}
+
